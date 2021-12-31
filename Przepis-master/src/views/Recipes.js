@@ -97,8 +97,8 @@ class Recipes extends React.Component {
                     <div style={styles.autoComplete}>
                         <MultiAutoCompleteInput
                             suggestions={this.state.suggestions}
-                            label='Co masz w lodówce?'
-                            placeholder='Wybierz produkt (zacznij pisać i wybierz z listy)'
+                            label='Jakie posiadasz składniki?'
+                            placeholder='Wprowadź posiadane produkty'
                             variant='outlined'
                             selectedItem={this.state.selectedItems}
                             setSelectedItem={this.setSelectedItems}
